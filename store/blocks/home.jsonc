@@ -1,0 +1,38 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text#Titulo",
+      "rich-text#Descripcion",
+      "flex-layout.row#Links"
+      // "flex-layout.row#InfoCards"
+    ]
+  },
+  "rich-text#Titulo": { 
+    "props": { 
+      "text": "VTEX IO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": ["Tiutlo1", "Cabeceras"]
+    }
+  },
+  "rich-text#Descripcion": {
+    "props": {
+      "text": "#### Descripcion de sitio",
+      "textPosition": "CENTER",
+      "blockClass": "Descripcion"
+    }
+  },
+  "flex-layout.row#Links": {
+    "props" : {
+      "colSizing": "auto",
+      "colGap": 2,
+      "marginTop": 2
+    },
+    "children" : [
+      "link#ButtonPrimary",
+      "link#ButtonSecondary",
+      "link#ButtonTertiary"
+    ]
+  }
+}

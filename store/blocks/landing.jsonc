@@ -1,0 +1,12 @@
+{
+    "store.custom#Landing": {
+        "blocks" : [
+            "rich-text#Titulo"
+        ]
+    },
+    "store.custom#Temporada": {
+        "blocks" : [
+            "rich-text#Titulo"
+        ]
+    }
+}

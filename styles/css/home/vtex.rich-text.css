@@ -1,0 +1,21 @@
+.paragraph{
+    font-style: italic;
+    color: #ddd;
+}
+
+.heading--Titulo{
+    font-weight: 300;
+}
+
+.paragraph--Cabeceras{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraph--Tiutlo1{
+    font-weight: bold;
+    color: aqua;
+}
+
+.paragraph--Tiutlo2{
+    color: beige;
+}

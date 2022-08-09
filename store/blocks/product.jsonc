@@ -1,0 +1,10 @@
+{
+  "store.product": {
+    "children": [
+      "rich-text#Titulo",
+      "product-images",
+      "product-name",
+      "add-to-cart-button"
+    ]
+  }
+}
